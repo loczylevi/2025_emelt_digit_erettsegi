@@ -20,3 +20,5 @@ https://dload-oktatas.educatio.hu/erettsegi/feladatok_2024tavasz_emelt/e_digkult
 ## ami eddig kész SQL programozás :white_check_mark: 
 
 _nothing_ broo 	(づ ◕‿◕ )づ
+
+# mind megbukunk let's goooo
