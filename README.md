@@ -1,11 +1,15 @@
 # 2025_emelt_digit_erettsegi
 
 ## minden feladat a következő linken elérhető:
-### forrás:
+### források:
 
 https://emelt.sulipy.hu/
 
 https://sulipy.hu/
+
+https://www.oktatas.hu/kozneveles/erettsegi/feladatsorok
+
+https://sql.sulipy.hu/
 
 ## ami eddig kész python programozás :white_check_mark: 
 
