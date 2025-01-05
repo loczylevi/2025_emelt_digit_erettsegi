@@ -21,4 +21,4 @@ https://dload-oktatas.educatio.hu/erettsegi/feladatok_2024tavasz_emelt/e_digkult
 
 _nothing_ broo 	(づ ◕‿◕ )づ
 
-# mind megbukunk let's goooo
+mind megbukunk let's goooo
