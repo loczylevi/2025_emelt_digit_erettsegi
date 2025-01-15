@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS muhely;
+CREATE DATABASE muhely;
+USE muhely;
