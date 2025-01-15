@@ -12,6 +12,6 @@ CREATE TABLE szgk(
 );
 
 INSERT INTO szgk(tipus,modell,rendszam,ajtok_szama, gyartas_eve) VALUES("Skoda", "Opel","LOL345",4,"1972-04-30");
-INSERT INTO szgk(tipus,modell,rendszam,ajtok_szama, gyartas_eve) VALUES("Skoda", "Opel","LOL345",4,"1972-04-30");
+INSERT INTO szgk(tipus,modell,rendszam,ajtok_szama, gyartas_eve) VALUES("Skoda", "Opel","LOL346",4,"1972-05-12");
 
 SELECT * FROM szgk;
