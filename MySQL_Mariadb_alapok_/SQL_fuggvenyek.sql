@@ -1,3 +1,5 @@
+-- https://sql.sulipy.hu/sql2/fuggvenyek?tab=video
+
 USE northwind;
 
 --                                                        ---|||---  SQL FÜGGVÉNYEK  ---|||---
