@@ -23,6 +23,11 @@ _nothing_ broo 	(づ ◕‿◕ )づ
 
 mind megbukunk let's goooo xd
 
+## Xamp inditása terminálból ubuntun
+```bash
+sudo /opt/lampp/manager-linux-x64.run
+```
+
 ```sql
 --- forrás:  https://sql.sulipy.hu/sql2/fuggvenyek?tab=feladatok
 
