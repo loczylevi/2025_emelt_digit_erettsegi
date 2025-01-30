@@ -27,7 +27,7 @@ mind megbukunk let's goooo xd
 ```bash
 sudo /opt/lampp/manager-linux-x64.run
 ```
-
+# SQL PUSKA
 ```sql
 --- forrás:  https://sql.sulipy.hu/sql2/fuggvenyek?tab=feladatok
 
