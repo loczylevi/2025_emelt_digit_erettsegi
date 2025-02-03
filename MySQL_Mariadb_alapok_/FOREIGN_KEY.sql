@@ -27,7 +27,7 @@ INSERT INTO customers (customer_id, name, ceg, varos, special_azo, free_Vbuck, s
 VALUES (1, 'Czikybors Flóra', 'CC KFT', 'MISKOLC', '4', 99, '2028-01-05');
 
 INSERT INTO customers (customer_id, name, ceg, varos, special_azo, free_Vbuck, szuletes) 
-VALUES (2, 'Nagy Anita', 'Szalézi KFT', 'DEBRECEN', '7', 88, '2022-01-05');
+VALUES (2, 'Perie Banzsai', 'Szalézi KFT', 'DEBRECEN', '7', 88, '2022-01-05');  
 
 INSERT INTO customers (customer_id, name, ceg, varos, special_azo, free_Vbuck, szuletes) 
 VALUES (77, 'Szego Pal', 'Continental', 'Budapest', '8', 99, '2022-01-05');
@@ -46,3 +46,5 @@ INSERT INTO orders (order_id, order_date, customer_id) VALUES (1003, '2022-01-09
 
 
 SELECT * FROM customers;
+ALTER TABLE orders DROP CONSTRAINT FK_customer_order ;  -- a kapcsolat megszüntetése a szülő és gyermek táblázat között
+ALTER TABLE orders ADD CONSTRAINT FK_customer_order FOREIGN KEY (customer_id) REFERENCES customers (customer_id); -- a kapcsolat létrehozása a szülő és gyermek táblázat között
