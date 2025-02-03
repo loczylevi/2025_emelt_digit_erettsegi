@@ -9,7 +9,7 @@ CREATE TABLE customers (
     ceg VARCHAR(40) DEFAULT "WESKO szakkör",
     varos VARCHAR(20) NOT NULL,
     special_azo VARCHAR(20) UNIQUE,
-    free_Vbuck INT CHECK(free_Vbuck < 100),
+    free_Vbuck INT CHECK(free_Vbuck < 100),  -- akinek több Vbuckja van mint 100 az CSAL!!4!!4!!!
     szuletes DATE
 );
 
@@ -24,7 +24,7 @@ CREATE TABLE orders (
 
 -- Data Insertion (Fixing column name and structure)
 INSERT INTO customers (customer_id, name, ceg, varos, special_azo, free_Vbuck, szuletes) 
-VALUES (1, 'Czikybors Flóra', 'MISKOLC', '4', '6', 6, '2028-01-05');
+VALUES (1, 'Czikybors Flóra', 'CC KFT', 'MISKOLC', '4', 99, '2028-01-05');
 
 INSERT INTO customers (customer_id, name, ceg, varos, special_azo, free_Vbuck, szuletes) 
 VALUES (2, 'Nagy Anita', 'Szalézi KFT', 'DEBRECEN', '7', 88, '2022-01-05');
@@ -43,3 +43,6 @@ INSERT INTO orders (order_id, order_date, customer_id) VALUES (1000, '2022-01-05
 INSERT INTO orders (order_id, order_date, customer_id) VALUES (1001, '2022-01-07', 2);
 INSERT INTO orders (order_id, order_date, customer_id) VALUES (1002, '2022-02-03', 77);
 INSERT INTO orders (order_id, order_date, customer_id) VALUES (1003, '2022-01-09', 77);
+
+
+SELECT * FROM customers;
