@@ -71,7 +71,25 @@ if kezd < koztes < veg:
     print(f"{kezd.hour:02}:{kezd.minute:02},{koztes.hour:02}:{koztes.minute:02},{veg.hour:02}:{veg.minute:02}")
 
 
+a = 12
+c = 12
+b = 18
+d = 18
+a_tobbszoros = [a]
+b_tobbszoros = [b]
 
+megvan = True
+while megvan:
+    for szam1 in a_tobbszoros:
+        for szam2 in b_tobbszoros:
+            if szam1 == szam2:
+                print(f"LKT: {szam1}")
+                megvan = False
+                break
+    a = a + c
+    b += d
+    a_tobbszoros.append(a)
+    b_tobbszoros.append(b)
 
 
 
