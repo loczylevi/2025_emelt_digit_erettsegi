@@ -285,7 +285,7 @@ INSERT INTO L1MIT (jatekos,tank,loszer,avg_dmg) VALUES ("MAJOM2","Obj 252u",60,4
 INSERT INTO L1MIT (jatekos,tank,loszer,avg_dmg) VALUES ("MAJOM3","SKODA T56",40,4500);
 INSERT INTO L1MIT (jatekos,tank,loszer,avg_dmg) VALUES ("MAJOM4","Renegade",40,4500);
 INSERT INTO L1MIT (jatekos,tank,loszer,avg_dmg) VALUES ("MAJOM5","BZ-1767",40,4500);
-[18:35]
+
 -- SELECT * FROM P_ACE;
 
 -- SELECT * FROM L1MIt;
