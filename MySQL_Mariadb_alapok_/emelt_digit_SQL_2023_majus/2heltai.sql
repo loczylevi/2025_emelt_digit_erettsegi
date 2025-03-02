@@ -1,0 +1,1 @@
+SELECT film.eredeti, film.cim FROM film WHERE film.magyarszoveg LIKE "%Heltai Olga%";
