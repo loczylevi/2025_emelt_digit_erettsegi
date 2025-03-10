@@ -31,6 +31,22 @@ sudo /opt/lampp/manager-linux-x64.run
 sudo /opt/lampp/lampp stop
 sudo /opt/lampp/lampp status
 
+sudo /opt/lampp/lampp startmysql
+
+sudo /opt/lampp/lampp status
+
+sudo /opt/lampp/lampp startapache
+
+sudo netstat -tulpn | grep :80
+
+sudo systemctl stop nginx
+sudo systemctl disable nginx
+
+sudo /opt/lampp/lampp startapache
+
+
+
+
 ```
 # SQL PUSKA
 ```sql
