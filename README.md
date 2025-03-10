@@ -25,10 +25,11 @@ https://dload-oktatas.educatio.hu/erettsegi/feladatok_2023tavasz_emelt/e_digkult
 
 mind megbukunk let's goooo xd
 
-## Xamp inditása/leállitása terminálból ubuntun
+## Xamp inditása/leállitása/status terminálból ubuntun
 ```bash
 sudo /opt/lampp/manager-linux-x64.run
 sudo /opt/lampp/lampp stop
+sudo /opt/lampp/lampp status
 
 ```
 # SQL PUSKA
