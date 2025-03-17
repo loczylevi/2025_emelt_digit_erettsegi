@@ -3,6 +3,10 @@
 ## minden feladat a következő linken elérhető:
 ### források:
 
+```bash
+python -X utf8 reklam.py
+```
+
 https://emelt.sulipy.hu/
 
 https://sulipy.hu/
