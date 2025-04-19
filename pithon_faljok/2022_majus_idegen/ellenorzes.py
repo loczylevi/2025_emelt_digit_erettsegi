@@ -4,7 +4,7 @@ rendszáma (6 karakteren), a szakasz kezdeti- és végpontján rögzített időp
 ezredmásodperc formában. (A fájl olyan járművek adatait nem tartalmazza, amelyeknek a szakasz
 kezdeti- vagy végpontján nem volt mérési értéke.) 
 """
-
+# broo ha ilyet kapok élesbe én felkötöm magam 💀
 #OJV879 8 11 21 310 8 19 2 849
 
 class Szakasz_velocitas_ell:
